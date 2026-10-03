@@ -1,0 +1,22 @@
+﻿git : remote: Repository 
+not found.
+At line:1 char:1
++ git push origin main 2> 
+error.txt ; Out-File 
+-FilePath error_utf8.txt 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (r  
+  emote: Repository not   
+  found.:String) [], R    
+emoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+fatal: repository 'https:/
+/github.com/Ashfaqulhaq10/
+DemandPulse.git/' not 
+found

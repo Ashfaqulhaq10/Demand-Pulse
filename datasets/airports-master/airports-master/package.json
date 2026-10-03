@@ -1,0 +1,33 @@
+{
+  "name": "airports",
+  "version": "1.0.10",
+  "description": "A public and free dataset of all airports in the world",
+  "keywords": [
+    "AeroDB",
+    "json",
+    "csv",
+    "airports",
+    "database",
+    "aviation",
+    "dataset"
+  ],
+  "homepage": "https://github.com/aero-db/airports#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero-db/airports.git"
+  },
+  "author": "AeroDB",
+  "type": "commonjs",
+  "main": "airports.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx tools/update-airports.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
